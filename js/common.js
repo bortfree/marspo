@@ -54,6 +54,62 @@ $(function() {
 		}
 	});
 
+	$('#countdown4').ClassyCountdown({
+		end: '2016-04-26 21:30:00',
+		labels: true,
+		labelsOptions: {
+			lang: {
+				days: 'Дней',
+				hours: 'Часов',
+				minutes: 'Минут',
+				seconds: 'Секунд'
+			},
+			style: 'font-size:23px; text-transform:uppercase;'
+		},
+		style: {
+			element: "",
+			textResponsive: .5,
+			days: {
+				gauge: {
+					thickness: .2,
+					bgColor: "rgba(255,255,255,1)",
+					fgColor: "rgb(173, 215, 65)"
+				},
+				textCSS: 'font-family:\'GothaProBla\', sans-serif; font-size:30px; font-weight:300; color:rgba(255,255,255,1);'
+			},
+			hours: {
+				gauge: {
+					thickness: .2,
+					bgColor: "rgba(255,255,255,1)",
+					fgColor: "rgb(173, 215, 65)"
+				},
+				textCSS: 'font-family:\'GothaProBla\', sans-serif; font-size:25px; font-weight:300; color:rgba(255,255,255,1);'
+			},
+			minutes: {
+				gauge: {
+					thickness: .2,
+					bgColor: "rgba(255,255,255,1)",
+					fgColor: "rgb(173, 215, 65)"
+				},
+				textCSS: 'font-family:\'GothaProBla\', sans-serif; font-size:25px; font-weight:300; color:rgba(255,255,255,1);'
+			},
+			seconds: {
+				gauge: {
+					thickness: .2,
+					bgColor: "rgba(255,255,255,1)",
+					fgColor: "rgb(173, 215, 65)"
+				},
+				textCSS: 'font-family:\'GothaProBla\', sans-serif; font-size:25px; font-weight:300; color:rgba(255,255,255,1);'
+			}
+
+		},
+		onEndCallback: function() {
+			console.log("Time out!");
+		}
+	});
+
+
+
 
 
 $(".slider").owlCarousel({

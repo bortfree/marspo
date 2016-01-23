@@ -66,7 +66,7 @@ body {
 
 .head{
 	background-image: url(../img/bg_head.png) ;
-	min-height: 1050px;
+	min-height: 890px;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: top center;
@@ -528,6 +528,28 @@ a.button:hover{
 .section_7 .title_wrap h2{
 	margin-bottom: 40px;
 }
+.section_6 .title_descr_wrap{
+	padding-left: 25px;
+	margin-top: 65px;
+	position: relative;
+}
+.section_6 .title_descr_wrap::after{
+	content: '';
+	width: 25px;
+	height: 80px;
+	background-image: url(../img/brace_sect_6.png);
+	position: absolute;
+	top: -12px;
+	left: 0;
+
+}
+.section_6 .title_descr_wrap h3{
+	color: #0f1015;
+	font-family: "GothaProBla", sans-serif;
+	font-size: 21px;
+	text-transform: uppercase;
+	line-height: 27px;
+}
 .item_sect7_wrap{
 	text-align: center;
 	margin-top: 20px;
@@ -702,7 +724,9 @@ table tr td.td_bottom{
 .section_10 .title_wrap h2{
 	margin-bottom: 60px;
 }
-
+.section_11{
+	padding-bottom: 100px;
+}
 .section_11 .title_sect_1 h2{
 	color: #000;
 	font-size: 35px;
@@ -742,4 +766,219 @@ table tr td.td_bottom{
 	background-image: url(../img/brace_sect_11.png);
 	height: 256px;
 	top: -32px;
+}
+
+.section_12{
+	text-align: center;
+	background-image: url(../img/bg_sect_12.jpg);
+	min-height: 676px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.section_12 .title_wrap{
+	text-align: center;
+	margin-top: 54px;
+	border-bottom: 4px dotted #a5d329;
+	display: inline-block;
+	
+}
+.section_12 .title_wrap h2{
+	color: #fff;
+	margin-bottom: 12px;
+}
+.section_12 .descr_wrap p{
+	margin-top: 28px;
+	margin-bottom: 0;
+}
+.section_12 .descr_wrap p strong{
+	font-family: "GothaProBol", sans-serif;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+.second_descr{
+	margin-top: 0;
+	line-height: 23px;
+	font-size: 18px;
+}
+.section_12 .but_wrap{
+	margin-top: 35px;
+}
+.section_12 .but_wrap a{
+	background: none;
+	font-family: "GothaProBol", sans-serif;
+	font-size: 17px;
+	color: #fff;
+}
+.section_12 .but_wrap a:hover{
+	background-color: rgba(255, 255, 255, .2);
+}
+.contact_wrap{
+	margin-top: 178px;
+}
+.contact_wrap p{
+	font-size: 15px;
+	line-height: 18px;
+}
+.contact_wrap p strong{
+	font-family: "GothaProMed", sans-serif;
+}
+
+.section_13{
+	background-image: url(../img/bg_sect_13.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	min-height: 1002px;
+	text-align: center;
+}
+.section_13 .title_wrap{
+	text-align: center;
+}
+.section_13 .title_wrap h2{
+	font-size: 33px;
+}
+.section_13 .title_wrap strong{
+	font-size: 33px;
+}
+.section_13 .title_descr{
+	font-size: 18px;
+	line-height: 24px;
+}
+.section_13 .title_descr span{
+	color: #A5D329;
+}
+.section_13 .items{
+	margin-top: 70px;
+}
+.section_13 .count_wrap{
+	margin-top: 150px;
+}
+.section_14{
+	padding-bottom: 0;
+}
+.section_14 .title_wrap{
+	margin-top: 50px;
+}
+.section_14 .title_descr_wrap{
+	padding-left: 25px;
+	margin-top: 30px;
+	position: relative;
+}
+.section_14 .title_descr_wrap::after{
+	content: '';
+	width: 25px;
+	height: 80px;
+	background-image: url(../img/brace_sect_6.png);
+	position: absolute;
+	top: -12px;
+	left: 0;
+
+}
+.section_14 .title_descr_wrap h3{
+	color: #0f1015;
+	font-family: "GothaProBla", sans-serif;
+	font-size: 21px;
+	text-transform: uppercase;
+	line-height: 27px;
+}
+
+.descr_wrap_p{
+	color: #0f1015;
+	font-size: 21px;
+	line-height: 25px;
+	margin-top: 27px;
+}
+.section_14 .item_title{
+	margin-top: 70px;
+	margin-left: 10px;
+}
+.section_14 .item_title h3{
+	color: #0f1015;
+	font-family: "GothaProBla", sans-serif;
+	font-size: 21px;
+	text-transform: uppercase;
+	line-height: 27px;
+}
+.section_14 .item_wrap{
+	color: #0f1015;
+	font-size: 17px;
+	margin-bottom: 50px;
+}
+.section_14 .item_wrap span{
+	border-bottom: 2px solid #A5D329;
+}
+
+.section_15{
+	background-image: url(../img/bg_sect_15.jpg) ;
+	min-height: 860px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+	position: relative;
+	text-align: left;
+	
+}
+.section_15 .title_sect_1_wrap{
+	margin-top: 260px;
+	
+}
+.section_15 .title_sect_1 h2{
+	font-size: 35px;
+	line-height: 45px;
+}
+.section_15 .descr_wrap{
+	font-size: 21px;
+	line-height: 27px;
+}
+.section_15 .wr_button{
+	margin-top: 70px;
+}
+.section_15 a.button{
+	border: 2px solid #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: "GothaProMed", sans-serif;
+}
+
+.footer{
+	background-image: url(../img/bg_footer.png);
+	min-height: 650px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	margin-top: -65px;
+	position: relative;
+	z-index: 2;
+	font-family: "GothaProBol", sans-serif;
+	font-size: 22px;
+}
+.footer .title_wrap{
+	margin-top: 100px;
+}
+.footer .but_wrap{
+	margin-top: 35px;
+}
+.footer a.button{
+	background: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: "GothaProBol", sans-serif;
+	border-radius: 16px;
+	font-size: 18px;
+	padding: 7px 70px;
+}
+.footer a.button:hover{
+	background-color: rgba(165, 211, 41, .8);
+}
+
+.pro_line_wr {
+	font-size: 10px;
+}
+.mail_wr, .tel_wrap{
+	text-align: right;
+}
+.bottom_line_wr{
+	margin-top: 300px;
 }
