@@ -131,3 +131,14 @@
 	font-style: normal;
 	font-weight: normal;
 }
+
+@font-face {
+	font-family: "rouble";
+	src: url("../fonts/rouble/rouble.eot");
+	src: url("../fonts/rouble/rouble.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/rouble/rouble.woff") format("woff"),
+			 url("../fonts/rouble/rouble.otf") format("opentype"),
+			 url("../fonts/rouble/rouble.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
