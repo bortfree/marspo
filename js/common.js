@@ -1,8 +1,7 @@
 $(function() {
 
 	$('#countdown3').ClassyCountdown({
-		end: '1390868325',
-		now: '1388461323',
+		end: '2016-04-26 21:30:00',
 		labels: true,
 		labelsOptions: {
 			lang: {
