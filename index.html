@@ -8,8 +8,8 @@
 
 	<meta charset="utf-8">
 
-	<title>Заголовок</title>
-	<meta name="description" content="">
+	<title>MARSPO</title>
+	<meta name="description" content="Международная конференция MarSpo">
 
 	<link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
 	
@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="libs/owl-carousel/assets/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="libs/classycount/jquery.classycountdown.css" />
+	<link rel="stylesheet" type="text/css" href="libs/magnific-popup/magnific-popup.css" />
 	<link rel="stylesheet" href="libs/animate/animate.css">
 	
 	<link rel="stylesheet" href="css/fonts.css">
@@ -50,9 +51,9 @@
 					<div class="col-md-4">
 						<nav class="nav_menu">
 							<ul>
-								<li><a class="active" href="#">Что это?</a></li>
-								<li><a href="#">Кто выступает?</a></li>
-								<li><a href="#">Сколько стоит?</a></li>
+								<li><a href="#about">Что это?</a></li>
+								<li><a href="#who">Кто выступает?</a></li>
+								<li><a href="#price">Сколько стоит?</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -64,7 +65,7 @@
 							+7 (499) 704 24 84
 						</div>
 						<div class="butt_wrap">
-							<a  class="button" href="#">Обратный звонок</a>
+							<a  class="button popup" href="#form">Обратный звонок</a>
 						</div>
 					</div>
 				</div>
@@ -123,7 +124,7 @@
 		<div class="arr_down"></div>
 	</header>
 
-	<section class="home_sect section_1">
+	<section id="about" class="home_sect section_1">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -221,14 +222,18 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="forms_sect3_wr">
-						<form class="forms_sect3" action="#">
+						<form id="form1" class="forms_sect3" action="#">
 							<input type="text" name="name" required placeholder="Ваше имя">
 							<input type="tel" name="phone" required placeholder="Ваш телефон">
 							<input type="email" name="email" required placeholder="Ваш e-mail">
 							<button type="submit">Отправить</button>
 							<input class="radio" type="radio" name="radio" value="partner">Являюсь членом Ассоциации-партнера
 							<input class="radio" type="radio" name="radio" value="promokod">У меня есть промокод
-
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="Marspo">
+							<input type="hidden" name="admin_email" value="ebortnikov@mail.ru">
+							<input type="hidden" name="form_subject" value="Заказ обратного звонка">
+							<!-- END Hidden Required Fields -->
 						</form>
 					</div>
 				</div>
@@ -341,7 +346,7 @@
 
 	</section>
 
-	<section class="homesect  sect_white section_6">
+	<section id="who" class="homesect  sect_white section_6">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
@@ -493,7 +498,7 @@
 		</div>
 		<div class="ellips_sect7">
 			<div class="but_wrap">
-				<a href="#">Стать спикером</a>
+				<a class="popup" href="#form">Стать спикером</a>
 			</div>
 		</div>
 	</section>
@@ -600,7 +605,7 @@
 
 	</section>
 
-	<section class="homesect section_10">
+	<section id="price" class="homesect section_10">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -676,15 +681,15 @@
 								<td class="td_bottom"></td>
 								<td class="td_bottom">
 									<div class="but_wrap">
-										<a href="#">Купить</a>
+										<a class="popup" href="#form">Купить</a>
 									</div></td>
 									<td class="td_bottom">
 										<div class="but_wrap">
-											<a href="#">Купить</a>
+											<a class="popup" href="#form">Купить</a>
 										</div></td>
 										<td class="td_bottom">
 											<div class="but_wrap">
-												<a href="#">Купить</a>
+												<a class="popup" href="#form">Купить</a>
 											</div></td>
 										</tr>
 									</table>
@@ -743,7 +748,7 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="but_wrap">
-									<a class="button" href="#">Узнать подробнее о работе Экспертного Совета</a>
+									<a class="button popup" href="#form">Узнать подробнее о работе Экспертного Совета</a>
 								</div>
 							</div>
 						</div>
@@ -779,14 +784,18 @@
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="forms_sect3_wr">
-										<form class="forms_sect3" action="#">
+										<form id="form2" class="forms_sect3" action="#">
 											<input type="text" name="name" required placeholder="Ваше имя">
 											<input type="tel" name="phone" required placeholder="Ваш телефон">
 											<input type="email" name="email" required placeholder="Ваш e-mail">
 											<button type="submit">Отправить</button>
 											<input class="radio" type="radio" name="radio" value="partner" checked>Являюсь членом Ассоциации-партнера
 											<input class="radio" type="radio" name="radio" value="promokod">У меня есть промокод
-
+											<!-- Hidden Required Fields -->
+											<input type="hidden" name="project_name" value="Marspo">
+											<input type="hidden" name="admin_email" value="ebortnikov@mail.ru">
+											<input type="hidden" name="form_subject" value="Заказ обратного звонка">
+											<!-- END Hidden Required Fields -->
 										</form>
 									</div>
 								</div>
@@ -910,7 +919,7 @@
 											<p>Отправьте заявку, <br>и мы вышлем Вам<br>подробную информацию</p>
 										</div>
 										<div class="wr_button">
-											<a href="#" class="button">Отправить заявку</a>
+											<a href="#form" class="button popup">Отправить заявку</a>
 										</div>
 									</div>
 								</div>
@@ -926,7 +935,7 @@
 									<div class="title_wrap">
 										<h2>ОСТАЛИСЬ ВОПРОСЫ?</h2>
 										<div class="but_wrap">
-											<a href="#" class="button">перезвони</a>
+											<a href="#form" class="button popup">перезвони</a>
 										</div>
 									</div>
 								</div>
@@ -965,7 +974,35 @@
 
 
 
-					<div class="hidden"></div>
+					<div class="hidden">
+						
+						<form class="popup_forms"  id="form">
+							<div class="left_form_wrap">
+								<div class="title_wrap">
+									<h2>Заполните поля <br>и наш менеджер свяжеться с вами</h2>
+								</div>
+								<div class="radio_wr">
+									<input class="radio" type="radio" name="radio" value="partner">Являюсь членом Ассоциации-партнера<br>
+									<input class="radio" type="radio" name="radio" value="promokod">У меня есть промокод
+								</div>
+							</div>
+							<div class="right_form_wrap">
+								<input type="text" name="name" required placeholder="Ваше имя"><br>
+								<input type="tel" name="phone" required placeholder="Ваш телефон"><br>
+								<input type="email" name="email" required placeholder="Ваш e-mail"><br>
+								<button type="submit">Отправить</button>
+								
+							</div>
+
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="Marspo">
+							<input type="hidden" name="admin_email" value="ebortnikov@mail.ru">
+							<input type="hidden" name="form_subject" value="Заказ обратного звонка">
+							<!-- END Hidden Required Fields -->
+
+						</form>
+
+					</div>
 
 					<div class="loader">
 						<div class="loader_inner"></div>
@@ -985,6 +1022,8 @@
 	<script src="libs/classycount/jquery.knob.js"></script>
 	<script src="libs/classycount/jquery.throttle.js"></script>
 	<script src="libs/classycount/jquery.classycountdown.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
 	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
 	
 	<script src="js/common.js"></script>

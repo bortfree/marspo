@@ -65,7 +65,7 @@ body {
 }
 
 .head{
-	background-image: url(../img/bg_head.png) ;
+	background-image: url(../img/bg_head.jpg) ;
 	min-height: 890px;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -371,7 +371,7 @@ a.button:hover{
 }
 
 .section_3{
-	background-image: url(../img/bg_sect_3.png);
+	background-image: url(../img/bg_sect_3.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
@@ -981,4 +981,65 @@ table tr td.td_bottom{
 }
 .bottom_line_wr{
 	margin-top: 300px;
+}
+
+form.popup_forms{
+    padding: 50px 20px;
+    background-image: url(../img/bg_form.png);
+    min-height: 652px;
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+.mfp-content button.mfp-close{
+	color: #fff;
+	padding: 0;
+}
+.left_form_wrap, .right_form_wrap{
+	width: 50%;
+	margin-top: 100px;
+}
+.left_form_wrap{
+	float: left;
+	text-align: left;
+	padding-left: 70px;
+}
+.left_form_wrap .title_wrap{
+	text-align: left;
+	
+}
+.left_form_wrap h2{
+	color: #fff;
+	font-size: 32px;
+}
+.right_form_wrap{
+	float: right;
+	margin-top: 111px;
+}
+.radio_wr{
+	font-size: 14px;
+}
+.radio_wr input{
+	margin-right: 15px;
+	margin-bottom: 25px;
+}
+.right_form_wrap input{
+	background: transparent none repeat scroll 0% 0%;
+	border: 2px solid #E8E8E8;
+	border-radius: 16px;
+	font-size: 16px;
+	padding: 9px 20px;
+	width: 300px;
+	margin: 18px 10px;
+
+}
+.right_form_wrap button{
+	background-color: #a5d329;
+	border: 2px solid #E8E8E8;
+	border-radius: 16px;
+	font-size: 16px;
+	padding: 9px 20px;
+	width: 300px;
+	margin: 18px 10px;
+
 }
