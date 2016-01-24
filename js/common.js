@@ -1,5 +1,10 @@
 $(function() {
 
+	$(".arr_down").click(function() {
+		$("html, body").animate({ scrollTop: $(".head").height()+120 }, "slow");
+		return false;
+	});
+
 	$(".nav_menu ul a").mPageScroll2id();
 
 	$(".popup").magnificPopup();

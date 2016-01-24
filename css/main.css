@@ -15,9 +15,7 @@
 	opacity: 1;
 }
 
-.container {
-    width: 1170px !important;
-}
+
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
@@ -80,7 +78,6 @@ body {
 }
 
 .top_line{
-	margin: 0 80px;
 	padding-top: 65px;
 }
 
@@ -156,6 +153,10 @@ body {
 	display: inline-block;
 }
 
+.toggle-mnu{
+	display: block;
+
+}
 
 .butt_wrap{
 	float: right;
@@ -279,8 +280,10 @@ a.button:hover{
 
 .section_1{
 	background-image: url(../img/bg_sect_1.jpg) ;
-	min-height: 1050px;
-	background-repeat: no-repeat;
+	min-height: 980px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: left;
 	margin-top: 60px;
 	position: relative;
 	
