@@ -48,6 +48,13 @@
 	.footer{
 		font-size: 19px;
 	}
+	form.popup_forms, .done{
+		background-image: none;
+		background-color: #A5D329;
+		min-height: 500px;
+		width: 884px;
+		padding: 0;
+	}
 
 
 }
@@ -86,6 +93,19 @@
 	}
 	.logo, .pro_line_wr, .mail_wr, .tel_wrap{
 		text-align: center;
+	}
+	.left_form_wrap h2{
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.left_form_wrap{
+		padding-left: 32px;
+	}
+	form.popup_forms, .done{
+		width: 622px;
+	}
+	.right_form_wrap input, .right_form_wrap button{
+		width: 238px;
 	}
 
 }
@@ -149,6 +169,28 @@
 	.bottom_line_wr{
 		margin-top: 167px;
 	}
+	.left_form_wrap{
+		width: 100%;
+		text-align: center;
+		float: none;
+		padding-left: 0;
+	}
+	.left_form_wrap .title_wrap{
+		text-align: center;
+	}
+	form.popup_forms, .done{
+		width: 403px;
+	}
+	.right_form_wrap{
+		float: none;
+		margin-top: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.right_form_wrap input{
+		margin: 5px 10px;
+	}
+
 
 
 	
@@ -233,6 +275,9 @@
 	.section_15 .title_sect_1 h2 {
     font-size: 23px;
     line-height: 31px;
+	}
+	form.popup_forms, .done{
+		width: 280px;
 	}
 
 }
