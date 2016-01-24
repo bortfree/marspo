@@ -1,5 +1,10 @@
 $(function() {
 
+	$("#toggle").click(function(){
+		$(this).toggleClass("on");
+		$(".nav_menu").slideToggle();
+	});
+
 	$(".arr_down").click(function() {
 		$("html, body").animate({ scrollTop: $(".head").height()+120 }, "slow");
 		return false;

@@ -37,19 +37,19 @@
 		<div class="top_line">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-4">
 						<div class="logo">
 							<img src="img/logo_name.png" alt="MARSPO">
 						</div>
 					</div>
-					<div class="col-md-2">
+					<div class="col-md-2 col-sm-1 hidden-xs">
 						<div class="switch_wrap">
 							<a  class="active" href="#">rus</a>
 							<a href="#">eng</a>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-lg-push-4 col-md-4 clean_pad">
+					<div class="col-lg-3 col-lg-push-4 col-md-4 col-sm-6 col-xs-10 clean_pad">
 						<div class="fb_wrap">
 							<a href="#"><img src="img/icon_fb.png" alt="Facebook"></a>
 						</div>
@@ -65,11 +65,13 @@
 					</div>
 
 					<div class="col-md-3 hidden-lg">
-						<a href="#" class="toggle-mnu hidden-lg"><span>fbf</span></a>
+						<div class="toggle_button">
+							<a href="#" id="toggle" class="toggle-mnu hidden-lg"><span></span></a>
+						</div>
 					</div>
 
-					<div class="col-lg-4 col-lg-pull-3 hidden-md">
-						<nav class="nav_menu">
+					<div class="col-lg-4 col-md-12 col-lg-pull-3">
+						<nav id="menu" class="nav_menu">
 							<ul>
 								<li><a href="#about">Что это?</a></li>
 								<li><a href="#who">Кто выступает?</a></li>
@@ -92,7 +94,7 @@
 				</div>
 
 				<div class="row">
-					<div class="col-md-4 col-md-offset-4">
+					<div class="col-md-4 col-sm-6 col-sm-offset-3 col-md-offset-4">
 						<div class="title_date">
 							26-27 апреля 2016 года ОТЕЛЬ АЗИМУТ ОЛИМПИК
 						</div>
@@ -139,14 +141,14 @@
 	<section id="about" class="home_sect section_1">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-6 col-md-6 col-sm-5">
 					<div class="title_sect_1_wrap">
 						<div class="title_sect_1">
 							<h2>Что такое конференция <strong>MarSpo?</strong></h2>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 col-md-6 col-sm-7">
 					<div class="descr_desc_1_wrap">
 						<p>MarSpo - первое практическое деловое мероприятие для коммерческих и маркетинговых служб спортивных федераций, лиг, клубов и турниров.</p>
 						<p>Основная цель Международной конференции MarSpo - показать реальные механизмы и инструменты в достижении финансовой успешности спортивных федераций, лиг, клубов и турниров</p>
@@ -238,8 +240,8 @@
 							<input type="text" name="name" required placeholder="Ваше имя">
 							<input type="tel" name="phone" required placeholder="Ваш телефон">
 							<input type="email" name="email" required placeholder="Ваш e-mail">
-							<button type="submit">Отправить</button>
-							<input class="radio" type="radio" name="radio" value="partner">Являюсь членом Ассоциации-партнера
+							<button type="submit">Отправить</button><br>
+							<input class="radio" type="radio" name="radio" value="partner">Являюсь членом Ассоциации-партнера<br>
 							<input class="radio" type="radio" name="radio" value="promokod">У меня есть промокод
 							<!-- Hidden Required Fields -->
 							<input type="hidden" name="project_name" value="Marspo">
@@ -361,7 +363,7 @@
 	<section id="who" class="homesect  sect_white section_6">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="title_wrap">
 						<h2>Для кого конференция MarSpo</h2>
 					</div>
@@ -369,7 +371,7 @@
 						<h3>Ожидается более<br> 300 делегатов</h3>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<div class="ul_wrap">
 						<ul>
 							<li><span>Спортивные федерации и лиги</span></li>
@@ -398,7 +400,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-4">
 					<div class="item_sect7_wrap">
 						<div class="img_wrap">
 							<img src="img/item_foto_sect7.jpg" alt="Speaker">
@@ -407,7 +409,7 @@
 						<p>Локомотив (Москва) PR-менеджер</p>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-4">
 					<div class="item_sect7_wrap">
 						<div class="img_wrap">
 							<img src="img/item_foto_sect7.jpg" alt="Speaker">
@@ -416,7 +418,7 @@
 						<p>Локомотив (Москва) PR-менеджер</p>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-4">
 					<div class="item_sect7_wrap">
 						<div class="img_wrap">
 							<img src="img/item_foto_sect7.jpg" alt="Speaker">
@@ -425,7 +427,7 @@
 						<p>Локомотив (Москва) PR-менеджер</p>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-4">
 					<div class="item_sect7_wrap">
 						<div class="img_wrap">
 							<img src="img/item_foto_sect7.jpg" alt="Speaker">
@@ -434,7 +436,7 @@
 						<p>Локомотив (Москва) PR-менеджер</p>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-4">
 					<div class="item_sect7_wrap">
 						<div class="img_wrap">
 							<img src="img/item_foto_sect7.jpg" alt="Speaker">
@@ -443,7 +445,7 @@
 						<p>Локомотив (Москва) PR-менеджер</p>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-4">
 					<div class="item_sect7_wrap">
 						<div class="img_wrap">
 							<img src="img/item_foto_sect7.jpg" alt="Speaker">
@@ -452,7 +454,7 @@
 						<p>Локомотив (Москва) PR-менеджер</p>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-4">
 					<div class="item_sect7_wrap">
 						<div class="img_wrap">
 							<img src="img/item_foto_sect7.jpg" alt="Speaker">
@@ -461,7 +463,7 @@
 						<p>Локомотив (Москва) PR-менеджер</p>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-4">
 					<div class="item_sect7_wrap">
 						<div class="img_wrap">
 							<img src="img/item_foto_sect7.jpg" alt="Speaker">
@@ -470,7 +472,7 @@
 						<p>Локомотив (Москва) PR-менеджер</p>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-4">
 					<div class="item_sect7_wrap">
 						<div class="img_wrap">
 							<img src="img/item_foto_sect7.jpg" alt="Speaker">
@@ -479,7 +481,7 @@
 						<p>Локомотив (Москва) PR-менеджер</p>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-4">
 					<div class="item_sect7_wrap">
 						<div class="img_wrap">
 							<img src="img/item_foto_sect7.jpg" alt="Speaker">
@@ -488,7 +490,7 @@
 						<p>Локомотив (Москва) PR-менеджер</p>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-4">
 					<div class="item_sect7_wrap">
 						<div class="img_wrap">
 							<img src="img/item_foto_sect7.jpg" alt="Speaker">
@@ -497,7 +499,7 @@
 						<p>Локомотив (Москва) PR-менеджер</p>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-4">
 					<div class="item_sect7_wrap">
 						<div class="img_wrap">
 							<img src="img/item_foto_sect7.jpg" alt="Speaker">
@@ -714,14 +716,14 @@
 				<section class="home_sect section_11">
 					<div class="container">
 						<div class="row">
-							<div class="col-lg-6">
+							<div class="col-lg-6 col-md-6">
 								<div class="title_sect_1_wrap">
 									<div class="title_sect_1">
 										<h2>При покупке 2-х и более билетов <br><strong>Вы получаете скидку</strong></h2>
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-6">
+							<div class="col-lg-6 col-md-6">
 								<div class="descr_desc_1_wrap">
 									<h3>Таблица клубных скидок:</h3>
 									<p>2 человека - 5% </p>
@@ -760,7 +762,7 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="but_wrap">
-									<a class="button popup" href="#form">Узнать подробнее о работе Экспертного Совета</a>
+									<a class="button popup" href="#form">Узнать подробнее<span> о работе Экспертного Совета</span></a>
 								</div>
 							</div>
 						</div>
@@ -800,8 +802,8 @@
 											<input type="text" name="name" required placeholder="Ваше имя">
 											<input type="tel" name="phone" required placeholder="Ваш телефон">
 											<input type="email" name="email" required placeholder="Ваш e-mail">
-											<button type="submit">Отправить</button>
-											<input class="radio" type="radio" name="radio" value="partner" checked>Являюсь членом Ассоциации-партнера
+											<button type="submit">Отправить</button><br>
+											<input class="radio" type="radio" name="radio" value="partner" checked>Являюсь членом Ассоциации-партнера<br>
 											<input class="radio" type="radio" name="radio" value="promokod">У меня есть промокод
 											<!-- Hidden Required Fields -->
 											<input type="hidden" name="project_name" value="Marspo">
@@ -879,17 +881,17 @@
 								<div class="item_title">
 									<h3>Категории парнеров</h3>
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-3 col-sm-4">
 									<div class="item_wrap">
 										<p><span>Стратегический</span> партнер </p>
 									</div>
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-3 col-sm-4">
 									<div class="item_wrap">
 										<p><span>Официальный</span> партнер </p>
 									</div>
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-3 col-sm-4">
 									<div class="item_wrap">
 										<p><span>Технический</span> партнер </p>
 									</div>
@@ -897,19 +899,19 @@
 							</div>
 
 							<div class="row">
-								<div class="col-md-3">
+								<div class="col-md-3 col-sm-4">
 									<div class="item_wrap">
 										<p><span>Информационный</span> партнер </p>
 									</div>
 								</div>
-								<div class="col-md-3">
+								<div class="col-md-3 col-sm-4">
 									<div class="item_wrap">
 										<p>Партнер <span>деловой программы</span></p>
 									</div>
 								</div>
 							</div>
 							<div class="row">
-								<div class="col-md-3">
+								<div class="col-md-3 col-sm-4">
 									<div class="item_wrap">
 										<p>Партнер <span>конференции</span></p>
 									</div>
@@ -955,12 +957,12 @@
 
 							<div class="bottom_line_wr">
 								<div class="row">
-									<div class="col-md-3">
+									<div class="col-md-3 col-sm-6">
 										<div class="logo">
 											<img src="img/logo_name.png" alt="Marspo">
 										</div>
 									</div>
-									<div class="col-md-3">
+									<div class="col-md-3 col-sm-6">
 										<div class="pro_line_wr">
 											<div class="img_wr_line">
 												<img src="img/pro_line.jpg" alt="Pro Line">
@@ -968,12 +970,12 @@
 											<p>Оператор форума Про-линия</p>
 										</div>
 									</div>
-									<div class="col-md-3">
+									<div class="col-md-3 col-sm-6">
 										<div class="mail_wr">
 											info@sponsorforum.ru
 										</div>
 									</div>
-									<div class="col-md-3">
+									<div class="col-md-3 col-sm-6">
 										<div class="tel_wrap">
 											+7 (499) 704 24 84
 										</div>
