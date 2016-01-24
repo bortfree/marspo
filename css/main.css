@@ -15,6 +15,10 @@
 	opacity: 1;
 }
 
+.container {
+    width: 1170px !important;
+}
+
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
 	
@@ -1042,4 +1046,16 @@ form.popup_forms{
 	width: 300px;
 	margin: 18px 10px;
 
+}
+
+.done{
+    padding: 50px 20px;
+    background-image: url(../img/bg_form_done.png);
+    min-height: 652px;
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+.done .left_form_wrap{
+	margin-top: 200px;
 }

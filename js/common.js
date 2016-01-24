@@ -11,9 +11,14 @@ $(function() {
 			url: "mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
-			alert("Thank you!");
 			setTimeout(function() {
 				// Done Functions
+				$.magnificPopup.open({
+					items: {
+						src: '.done'
+					},
+					type: 'inline'
+				});
 				th.trigger("reset");
 			}, 1000);
 		});
@@ -27,9 +32,14 @@ $(function() {
 			url: "mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
-			alert("Thank you!");
 			setTimeout(function() {
 				// Done Functions
+				$.magnificPopup.open({
+					items: {
+						src: '.done'
+					},
+					type: 'inline'
+				});
 				th.trigger("reset");
 			}, 1000);
 		});
@@ -43,9 +53,14 @@ $(function() {
 			url: "mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
-			alert("Thank you!");
 			setTimeout(function() {
 				// Done Functions
+				$.magnificPopup.open({
+					items: {
+						src: '.done'
+					},
+					type: 'inline'
+				});
 				th.trigger("reset");
 			}, 1000);
 		});
@@ -108,59 +123,59 @@ $(function() {
 		}
 	});
 
-	$('#countdown4').ClassyCountdown({
-		end: '2016-04-26 21:30:00',
-		labels: true,
-		labelsOptions: {
-			lang: {
-				days: 'Дней',
-				hours: 'Часов',
-				minutes: 'Минут',
-				seconds: 'Секунд'
-			},
-			style: 'font-size:23px; text-transform:uppercase;'
+$('#countdown4').ClassyCountdown({
+	end: '2016-04-26 21:30:00',
+	labels: true,
+	labelsOptions: {
+		lang: {
+			days: 'Дней',
+			hours: 'Часов',
+			minutes: 'Минут',
+			seconds: 'Секунд'
 		},
-		style: {
-			element: "",
-			textResponsive: .5,
-			days: {
-				gauge: {
-					thickness: .2,
-					bgColor: "rgba(255,255,255,1)",
-					fgColor: "rgb(173, 215, 65)"
-				},
-				textCSS: 'font-family:\'GothaProBla\', sans-serif; font-size:30px; font-weight:300; color:rgba(255,255,255,1);'
+		style: 'font-size:23px; text-transform:uppercase;'
+	},
+	style: {
+		element: "",
+		textResponsive: .5,
+		days: {
+			gauge: {
+				thickness: .2,
+				bgColor: "rgba(255,255,255,1)",
+				fgColor: "rgb(173, 215, 65)"
 			},
-			hours: {
-				gauge: {
-					thickness: .2,
-					bgColor: "rgba(255,255,255,1)",
-					fgColor: "rgb(173, 215, 65)"
-				},
-				textCSS: 'font-family:\'GothaProBla\', sans-serif; font-size:25px; font-weight:300; color:rgba(255,255,255,1);'
-			},
-			minutes: {
-				gauge: {
-					thickness: .2,
-					bgColor: "rgba(255,255,255,1)",
-					fgColor: "rgb(173, 215, 65)"
-				},
-				textCSS: 'font-family:\'GothaProBla\', sans-serif; font-size:25px; font-weight:300; color:rgba(255,255,255,1);'
-			},
-			seconds: {
-				gauge: {
-					thickness: .2,
-					bgColor: "rgba(255,255,255,1)",
-					fgColor: "rgb(173, 215, 65)"
-				},
-				textCSS: 'font-family:\'GothaProBla\', sans-serif; font-size:25px; font-weight:300; color:rgba(255,255,255,1);'
-			}
-
+			textCSS: 'font-family:\'GothaProBla\', sans-serif; font-size:30px; font-weight:300; color:rgba(255,255,255,1);'
 		},
-		onEndCallback: function() {
-			console.log("Time out!");
+		hours: {
+			gauge: {
+				thickness: .2,
+				bgColor: "rgba(255,255,255,1)",
+				fgColor: "rgb(173, 215, 65)"
+			},
+			textCSS: 'font-family:\'GothaProBla\', sans-serif; font-size:25px; font-weight:300; color:rgba(255,255,255,1);'
+		},
+		minutes: {
+			gauge: {
+				thickness: .2,
+				bgColor: "rgba(255,255,255,1)",
+				fgColor: "rgb(173, 215, 65)"
+			},
+			textCSS: 'font-family:\'GothaProBla\', sans-serif; font-size:25px; font-weight:300; color:rgba(255,255,255,1);'
+		},
+		seconds: {
+			gauge: {
+				thickness: .2,
+				bgColor: "rgba(255,255,255,1)",
+				fgColor: "rgb(173, 215, 65)"
+			},
+			textCSS: 'font-family:\'GothaProBla\', sans-serif; font-size:25px; font-weight:300; color:rgba(255,255,255,1);'
 		}
-	});
+
+	},
+	onEndCallback: function() {
+		console.log("Time out!");
+	}
+});
 
 
 
