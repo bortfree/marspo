@@ -1,5 +1,10 @@
 $(function() {
 
+	$(".title_sect_1 h2, .title_wrap h2, .item_wrap_sect9 .img_wrap").animated("fadeInLeft");
+	$(".item").animated("fadeInDown");
+	$(".item_sect7_wrap").animated("zoomIn");
+
+	
 	$("#toggle").click(function(){
 		$(this).toggleClass("on");
 		$(".nav_menu").slideToggle();
