@@ -2,6 +2,9 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.wrap_title_desc{
+		margin-top: 200px;
+	}
 
 	.nav_menu{
 		display: none;
@@ -61,6 +64,11 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	
+	.wrap_title_desc{
+		margin-top: 304px;
+		height: 270px;
+	}
 
 	.switch_wrap{
 		margin-top: 5px;
@@ -112,6 +120,9 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.wrap_title_desc{
+		display: none;
+	}
 
 	.top_line{
 		padding-top: 20px;

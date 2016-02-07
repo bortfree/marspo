@@ -329,7 +329,7 @@ a.button:hover{
 
 
 .section_1{
-	background-image: url(../img/bg_sect_1.jpg) ;
+	background-image: url(../img/bg_sect_11.jpg) ;
 	min-height: 980px;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -352,6 +352,27 @@ a.button:hover{
 .title_sect_1 h2 strong{
 	font-size: 52px;
 	line-height: 70px;
+}
+
+.wrap_title_desc{
+	border: 4px solid #a5d329;
+	width: 450px;
+	margin-top: 100px;
+	height: 350px;
+	font-family: "GothaProBla", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	padding: 10px 100px 0 36px;
+}
+
+.foto_bottom_wrap{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+.foto_bottom_wrap img{
+	width: 100%;
 }
 
 .descr_desc_1_wrap{
