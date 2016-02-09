@@ -58,6 +58,15 @@
 		width: 884px;
 		padding: 0;
 	}
+	.phone_wrap{
+		margin-left: 0;
+	}
+	.butt_wrap{
+		margin-left: 0;
+	}
+	.forms_sect3{
+		text-align: center;
+	}
 
 
 }
@@ -114,6 +123,18 @@
 	}
 	.right_form_wrap input, .right_form_wrap button{
 		width: 238px;
+	}
+	.logo img{
+		width: 100%;
+	}
+	.section_4 .title_wrap{
+		margin: 0;
+	}
+	.ul_wrap{
+		margin-top: 40px;
+	}
+	footer .logo img{
+		width: auto;
 	}
 
 }
@@ -200,6 +221,9 @@
 	}
 	.right_form_wrap input{
 		margin: 5px 10px;
+	}
+	.phone_wrap{
+		font-size: 18px;
 	}
 
 
@@ -289,6 +313,15 @@
 	}
 	form.popup_forms, .done{
 		width: 280px;
+	}
+	.toggle_button{
+		display: none;
+	}
+	.phone_wrap{
+		font-size: 13px;
+	}
+	.butt_wrap a.button{
+		font-size: 14px;
 	}
 
 }

@@ -35,42 +35,33 @@
 
 	<header class="head">
 		<div class="top_line">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-3 col-sm-4">
+					<div class="col-md-3 col-sm-4 col-xs-5">
 						<div class="logo">
 							<img src="img/logo_name.png" alt="MARSPO">
 						</div>
 					</div>
-					<div class="col-md-2 col-sm-1 hidden-xs">
+					<div class="col-md-1 col-sm-1 hidden-xs hidden-sm ">
 						<div class="switch_wrap">
 							<a  class="active" href="#">rus</a>
 							<a href="#">eng</a>
 						</div>
-					</div>
-
-					<div class="col-lg-3 col-lg-push-4 col-md-4 col-sm-6 col-xs-10 clean_pad">
 						<div class="fb_wrap">
-							<a href="#"><img src="img/icon_fb.png" alt="Facebook"></a>
-						</div>
-						<div class="phone_wrap">
-							<div class="phone">
-								+7 (499) 704 24 84
-							</div>
-							
-						</div>
-						<div class="butt_wrap">
-							<a  class="button popup" href="#form">Обратный звонок</a>
+							<a href="#"><img src="img/ic_face.png"  alt="Facebook"></a>
+							<a href="#"><img src="img/ic_vk.png" alt="Vkontakte"></a>
 						</div>
 					</div>
 
-					<div class="col-md-3 hidden-lg">
-						<div class="toggle_button">
+
+
+					<div class="col-md-1 hidden-lg col-sm-1 col-xs-1 ">
+						<div class="toggle_button clearfix">
 							<a href="#" id="toggle" class="toggle-mnu hidden-lg"><span></span></a>
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-12 col-lg-pull-3">
+					<div class="col-lg-4 col-md-3 col-sm-4 col-xs-6 ">
 						<nav id="menu" class="nav_menu">
 							<ul>
 								<li><a href="#about">Что это?</a></li>
@@ -78,12 +69,32 @@
 								<li><a href="#price">Сколько стоит?</a></li>
 							</ul>
 						</nav>
+						<div class="phone_wrap">
+							<div class="phone">
+								+7 (499) 704 24 84
+							</div>
+						</div>
+						<div class="butt_wrap">
+							<a  class="button popup" href="#form">Обратный звонок</a>
+						</div>
 					</div>
-
-					
-
+					<div class="col-md-4 col-sm-3 hidden-xs">
+						<div class="wrap_arena">
+							<div class="wrap_descr hidden-sm hidden-xs">
+								<p>Официальный партнер:</p>
+							</div>
+							<div class="wrap_img">
+								<img src="img/ic_arena.png" alt="Arena">
+							</div>
+						</div>
+					</div>
 				</div>
+			</div>
+		</div>
 
+
+		<div class="home">
+			<div class="container">
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<div class="title_wrap">
@@ -240,15 +251,16 @@
 
 			
 			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
+				<div class="col-md-12">
 					<div class="forms_sect3_wr">
 						<form id="form1" class="forms_sect3" action="#">
 							<input type="text" name="name" required placeholder="Ваше имя">
+							<input type="text" name="company"  placeholder="Ваша компания">
 							<input type="tel" name="phone" required placeholder="Ваш телефон">
 							<input type="email" name="email" required placeholder="Ваш e-mail">
 							<button type="submit">Отправить</button><br>
-							<input class="radio" type="radio" name="radio" value="partner">Являюсь членом Ассоциации-партнера<br>
-							<input class="radio" type="radio" name="radio" value="promokod">У меня есть промокод
+							<input id="check" class="radio" type="checkbox" name="radio" value="promokod">
+							<label for="check">У меня есть промокод</label>
 							<!-- Hidden Required Fields -->
 							<input type="hidden" name="project_name" value="Marspo">
 							<input type="hidden" name="admin_email" value="ebortnikov@mail.ru">
@@ -260,31 +272,77 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
+				<div class="col-md-12 ">
 					<div class="items">
 						<div class="item">
 							<div class="img_wrap">
-								<img src="img/icon_pencil.png" height="65" width="59" alt="Contract">
-								<p>Подписание контрактов</p>
+								<img src="img/ic1_form.png" alt="Networking">
+								
 							</div>
+							<p>стратегическая сессия</p>
 						</div>
 						<div class="item">
 							<div class="img_wrap">
-								<img src="img/icon_brain.png" height="61" width="59" alt="Networking">
-								<p>NETWORKING-площадка</p>
+								<img src="img/ic2_form.png" alt="Presents">
+								
 							</div>
+							<p>ток-шоу</p>
 						</div>
 						<div class="item">
 							<div class="img_wrap">
-								<img src="img/icon_present.png" height="69" width="69" alt="Presents">
-								<p>ВЫСТАВКА проектов</p>
+								<img src="img/ic3_form.png" alt="Expert">
+								
 							</div>
+							<p>кейс-сессия</p>
 						</div>
 						<div class="item">
 							<div class="img_wrap">
-								<img src="img/icon_sticker.png" height="68" width="51" alt="Expert">
-								<p>ЭКСПЕРТНАЯ сессия</p>
+								<img src="img/ic4_form.png" alt="Expert">
+								
 							</div>
+							<p>интервью</p>
+						</div>
+						<div class="item">
+							<div class="img_wrap">
+								<img src="img/ic5_form.png" alt="Expert">
+								
+							</div>
+							<p>экспертная сессия</p>
+						</div>
+						<div class="item">
+							<div class="img_wrap">
+								<img src="img/ic6_form.png" alt="Expert">
+								
+							</div>
+							<p>семинар</p>
+						</div>
+						<div class="item">
+							<div class="img_wrap">
+								<img src="img/ic7_form.png" alt="Expert">
+								
+							</div>
+							<p>дискуссионная панель</p>
+						</div>
+						<div class="item">
+							<div class="img_wrap">
+								<img src="img/ic8_form.png" alt="Expert">
+								
+							</div>
+							<p>экспо-зона</p>
+						</div>
+						<div class="item">
+							<div class="img_wrap">
+								<img src="img/ic9_form.png" alt="Expert">
+								
+							</div>
+							<p>нетворкинг- сессия</p>
+						</div>
+						<div class="item item_last">
+							<div class="img_wrap">
+								<img src="img/ic10_form.png" alt="Expert">
+								
+							</div>
+							<p>подписание спонсорских контрактов</p>
 						</div>
 					</div>
 				</div>
@@ -302,32 +360,30 @@
 	</section>
 
 	<section class="homesect  sect_white section_4">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4">
 					<div class="title_wrap">
-						<h2>ФОРМАТЫ Конференции</h2>
+						<h2>Для кого конференция Марспо</h2>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-5 col-md-offset-1">
 					<div class="ul_wrap">
 						<ul>
-							<li><span>Стратегическая сессия</span></li>
-							<li><span>Ток-шоу</span></li>
-							<li><span>Кейс-сессия</span></li>
-							<li><span>Интервью</span></li>
+							<li><span>Президент федерации</span></li>
+							<li><span>Генеральный секретарь федерации</span></li>
+							<li><span>Директор клуба</span></li>
+							<li><span>Директор по маркетингу</span></li>
+							<li><span>Генеральный менеджер клуба</span></li>
+							<li><span>Руководитель пресс-службы клуба</span></li>
+							<li><span>Руководитель билетного отдела клуба</span></li>
+							<li><span>Руководитель по спонсорству</span></li>
+							<li><span>Начальник по работе <br>с болельщиками в клубе</span></li>
+							<li><span>Начальник отдела продаж <br>клубной атрибутики</span></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-3">
-					<div class="ul_wrap">
-						<ul>
-							<li><span>Экспертиза</span></li>
-							<li><span>Семинар</span></li>
-							<li><span>Дискуссионная панель</span></li>
-						</ul>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 
@@ -371,7 +427,7 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-6">
 					<div class="title_wrap">
-						<h2>Для кого конференция MarSpo</h2>
+						<h2>Среди участников конференции марспо</h2>
 					</div>
 					<div class="title_descr_wrap">
 						<h3>Ожидается более<br> 300 делегатов</h3>
@@ -383,11 +439,11 @@
 							<li><span>Спортивные федерации и лиги</span></li>
 							<li><span>Государственные органы власти</span></li>
 							<li><span>Оргкомитеты турниров</span></li>
-							<li><span>Профессиональные и любительские спортивные клубы</span></li>
+							<li><span>Профессиональные и любительские<br> спортивные клубы</span></li>
 							<li><span>Спортивные бренды</span></li>
-							<li><span>Спортивные, маркетинговые и коммуникационные агентства</span></li>
+							<li><span>Спортивные, маркетинговые и <br>коммуникационные агентства</span></li>
 							<li><span>Компании-спонсоры</span></li>
-							<li><span>Компании-поставщики продукции и услуг в сфере спорта</span></li>
+							<li><span>Компании-поставщики продукции и <br>услуг в сфере спорта</span></li>
 						</ul>
 					</div>
 				</div>
@@ -523,44 +579,29 @@
 		</div>
 	</section>
 
-
-	<section class="homesect section_8">
+	<section class="home_sect section_15">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<div class="title_wrap">
-						<h2>ДИРЕКЦИЯ ФОРУМА</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3">
-					<div class="item_sect7_wrap">
-						<p><strong>Артем Милаков</strong> <br> Директор конференции MarSpo</p>
-						<p>milakov@sponsorforum.ru<br> +7 (903) 824 04 65<br>  +7 (499) 704 24 84</p>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="item_sect7_wrap">
-						<p><strong>Валерий Гореликов</strong><br>Деловая программа конференции MarSpo</p>
-						<p>gorelikov@sponsorforum.ru<br>+7 (915) 375 72 12<br>+7 (499) 704 24 84</p>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="item_sect7_wrap">
-						<p><strong>Юлия Велецкая</strong><br>Спонсоры и делегаты конференции MarSpo</p>
-						<p>veleckaya@sponsorforum.ru<br>+7 (903) 690 63 69<br>+7 (499) 704 24 84</p>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="item_sect7_wrap">
-						<p><strong>Ольга Морозова</strong><br>Спикеры и партнеры <br>конференции MarSpo</p>
-						<p>morozova@sponsorforum.ru<br>+7 (965) 726 98 00<br>+7 (499) 704 24 84</p>
+				<div class="col-lg-6">
+					<div class="title_sect_1_wrap">
+						<div class="title_sect_1">
+							<h2>Узнайте о возможностях партнерства</h2>
+						</div>
+						<div class="descr_wrap">
+							<p>Отправьте заявку, <br>и мы вышлем Вам<br>подробную информацию</p>
+						</div>
+						<div class="wr_button">
+							<a href="#form" class="button popup">Получить предложение о партнерстве</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
+
+
+	
 
 	<section class="homesect section_9">
 		<div class="container">
@@ -624,6 +665,8 @@
 		</div>
 
 	</section>
+
+
 
 	<section id="price" class="homesect section_10">
 		<div class="container">
@@ -802,15 +845,16 @@
 
 
 							<div class="row">
-								<div class="col-md-10 col-md-offset-1">
+								<div class="col-md-12">
 									<div class="forms_sect3_wr">
 										<form id="form2" class="forms_sect3" action="#">
 											<input type="text" name="name" required placeholder="Ваше имя">
+											<input type="text" name="company"  placeholder="Ваша компания">
 											<input type="tel" name="phone" required placeholder="Ваш телефон">
 											<input type="email" name="email" required placeholder="Ваш e-mail">
 											<button type="submit">Отправить</button><br>
-											<input class="radio" type="radio" name="radio" value="partner" checked>Являюсь членом Ассоциации-партнера<br>
-											<input class="radio" type="radio" name="radio" value="promokod">У меня есть промокод
+											<input id="check1" class="radio" type="checkbox" name="radio" value="promokod">
+											<label for="check1">У меня есть промокод</label>
 											<!-- Hidden Required Fields -->
 											<input type="hidden" name="project_name" value="Marspo">
 											<input type="hidden" name="admin_email" value="ebortnikov@mail.ru">
@@ -821,36 +865,7 @@
 								</div>
 							</div>
 
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1">
-									<div class="items">
-										<div class="item">
-											<div class="img_wrap">
-												<img src="img/icon_pencil.png" height="65" width="59" alt="Contract">
-												<p>Подписание контрактов</p>
-											</div>
-										</div>
-										<div class="item">
-											<div class="img_wrap">
-												<img src="img/icon_brain.png" height="61" width="59" alt="Networking">
-												<p>NETWORKING-площадка</p>
-											</div>
-										</div>
-										<div class="item">
-											<div class="img_wrap">
-												<img src="img/icon_present.png" height="69" width="69" alt="Presents">
-												<p>ВЫСТАВКА проектов</p>
-											</div>
-										</div>
-										<div class="item">
-											<div class="img_wrap">
-												<img src="img/icon_sticker.png" height="68" width="51" alt="Expert">
-												<p>ЭКСПЕРТНАЯ сессия</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+							
 							<div class="row">
 								<div class="count_wrap">
 									<div class="count_title">
@@ -887,32 +902,37 @@
 								<div class="item_title">
 									<h3>Категории парнеров</h3>
 								</div>
-								<div class="col-md-3 col-sm-4">
+								<div class="col-lg-3 col-md-4 col-sm-4">
 									<div class="item_wrap">
 										<p><span>Стратегический</span> партнер </p>
+										<img src="img/ic1_sect14.jpg" alt="Strategy">
 									</div>
 								</div>
-								<div class="col-md-3 col-sm-4">
+								<div class="col-lg-3 col-md-4 col-sm-4">
 									<div class="item_wrap">
 										<p><span>Официальный</span> партнер </p>
+										<img src="img/ic2_sect14.jpg" alt="Official">
 									</div>
 								</div>
-								<div class="col-md-3 col-sm-4">
+								<div class="col-lg-3 col-md-4 col-sm-4">
 									<div class="item_wrap">
 										<p><span>Технический</span> партнер </p>
+										<img src="img/ic3_sect14.jpg" alt="Tehnical">
 									</div>
 								</div>
 							</div>
 
 							<div class="row">
-								<div class="col-md-3 col-sm-4">
+								<div class="col-md-6 col-sm-8">
 									<div class="item_wrap">
 										<p><span>Информационный</span> партнер </p>
+										<img src="img/ic4_sect14.jpg" alt="Information">
 									</div>
 								</div>
 								<div class="col-md-3 col-sm-4">
 									<div class="item_wrap">
 										<p>Партнер <span>деловой программы</span></p>
+										<img src="img/ic5_sect14.jpg" alt="Partner">
 									</div>
 								</div>
 							</div>
@@ -920,6 +940,7 @@
 								<div class="col-md-3 col-sm-4">
 									<div class="item_wrap">
 										<p>Партнер <span>конференции</span></p>
+										<img src="img/ic3_sect14.jpg" alt="Partner">
 									</div>
 								</div>
 							</div>
@@ -927,26 +948,43 @@
 
 					</section>
 
-					<section class="home_sect section_15">
+					<section class="homesect section_8">
 						<div class="container">
 							<div class="row">
-								<div class="col-lg-6">
-									<div class="title_sect_1_wrap">
-										<div class="title_sect_1">
-											<h2>Узнайте о возможностях партнерства</h2>
-										</div>
-										<div class="descr_wrap">
-											<p>Отправьте заявку, <br>и мы вышлем Вам<br>подробную информацию</p>
-										</div>
-										<div class="wr_button">
-											<a href="#form" class="button popup">Отправить заявку</a>
-										</div>
+								<div class="col-md-12">
+									<div class="title_wrap">
+										<h2>ДИРЕКЦИЯ ФОРУМА</h2>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="item_sect7_wrap">
+										<p><strong>Артем Милаков</strong> <br> Директор конференции MarSpo</p>
+										<p>milakov@sponsorforum.ru<br> +7 (903) 824 04 65<br>  +7 (499) 704 24 84</p>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="item_sect7_wrap">
+										<p><strong>Валерий Гореликов</strong><br>Деловая программа конференции MarSpo</p>
+										<p>gorelikov@sponsorforum.ru<br>+7 (915) 375 72 12<br>+7 (499) 704 24 84</p>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="item_sect7_wrap">
+										<p><strong>Юлия Велецкая</strong><br>Спонсоры и делегаты конференции MarSpo</p>
+										<p>veleckaya@sponsorforum.ru<br>+7 (903) 690 63 69<br>+7 (499) 704 24 84</p>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="item_sect7_wrap">
+										<p><strong>Ольга Морозова</strong><br>Спикеры и партнеры <br>конференции MarSpo</p>
+										<p>morozova@sponsorforum.ru<br>+7 (965) 726 98 00<br>+7 (499) 704 24 84</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</section>
-
 
 					<footer class="footer">
 						<div class="container">
@@ -965,7 +1003,7 @@
 								<div class="row">
 									<div class="col-md-3 col-sm-6">
 										<div class="logo">
-											<img src="img/logo_name.png" alt="Marspo">
+											<img src="img/logo_name_footer.png" alt="Marspo">
 										</div>
 									</div>
 									<div class="col-md-3 col-sm-6">
@@ -1002,8 +1040,8 @@
 									<h2>Заполните поля <br>и наш менеджер свяжеться с вами</h2>
 								</div>
 								<div class="radio_wr">
-									<input class="radio" type="radio" name="radio" value="partner">Являюсь членом Ассоциации-партнера<br>
-									<input class="radio" type="radio" name="radio" value="promokod">У меня есть промокод
+									<input id="check3" class="radio" type="checkbox" name="radio" value="promokod">
+									<label for="check3">У меня есть промокод</label>
 								</div>
 							</div>
 							<div class="right_form_wrap">

@@ -78,19 +78,27 @@ body {
 }
 
 .top_line{
-	padding-top: 65px;
+	padding: 15px 0;
+	background-color: #fff;
+	background-image: url(../img/bg_top_line.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: right;
+
 }
 
 .logo img{
-	width: 200px;
+	width: 270px;
 }
 
 .switch_wrap{
-	margin-top: 15px;
+	margin-top: 0;
+	display: inline-block;
+	width: 120px;
 }
 
 .switch_wrap a{
-	color: white;
+	color: #444;
 	font-size: 15px;
 	line-height: 23px;
 	text-transform: uppercase;
@@ -102,9 +110,11 @@ body {
 .switch_wrap a.active{
 	background-color: #a5d329;
 	border-radius: 17px;
+	color: #fff;
 }
 .nav_menu ul{
 	padding: 0;
+	margin: 0;
 }
 .nav_menu ul li{
 	list-style-type: none;
@@ -116,7 +126,7 @@ body {
 }
 .nav_menu ul li a{
 	font-size: 15px;
-	color: #fff;
+	color: #444;
 	text-decoration: none;
 	transition: all .25s ease;
 	line-height: 25px;
@@ -135,22 +145,21 @@ body {
 
 .fb_wrap{
 	display: inline-block;
-	width: 27px;
-	height: 27px;
-	margin: 13px 0px 0px 20px;
+	margin: 13px 0px 0px 12px;
 }
 .fb_wrap img{
-	width: 100%;
+	
 }
 .phone_wrap{
-	text-align: right;
-	color: white;
-	float: right;
+	text-align: left;
+	color: #444;
 	font-family: "GothaProBol", sans-serif;
 	font-size: 22px;
-	margin-top: 10px;
+	margin-top: 0;
+	margin-left: 70px;
+	color: #8a8a8a;
 	position: relative;
-	display: inline-block;
+	display: block;
 }
 .toggle_button{
 	text-align: right;
@@ -205,26 +214,34 @@ body {
   visibility: visible;
 }
 
-
+.wrap_arena{
+	float: right;
+	margin-top: -14px;
+}
+.wrap_arena .wrap_descr{
+	color: #444;
+	display: inline-block;
+	width: 150px;
+}
+.wrap_arena .wrap_img{
+	display: inline-block;
+}
 
 
 .butt_wrap{
-	float: right;
-	margin-top: 15px;
+	text-align: left;
+	margin-left: 70px;
 }
 
 a.button{
-	border: 2px solid #a5d329;
-	border-radius: 26px;
-	color: #fff;
+	color: #8a8a8a;
 	text-decoration: none;
 	font-size: 15px;
-	padding: 7px 35px;
 	font-weight: 400;
 	transition: all .25s ease;
 }
 a.button:hover{
-	background-color: rgba(165, 211, 41, .8);
+	border-bottom: 2px solid #a5d329;
 }
 
 
@@ -473,8 +490,16 @@ a.button:hover{
 	margin-top: 30px;
 }
 .forms_sect3{
-	text-align: center;
+	text-align: right;
 	font-size: 12px;
+	margin-right: 17px;
+}
+.forms_sect3 input[type="checkbox"]{
+	display: inline-block;
+}
+.forms_sect3 label{
+	display: inline-block;
+	margin-right: 25px;
 }
 .forms_sect3 input{
 	background: none;
@@ -483,7 +508,7 @@ a.button:hover{
 	font-size: 15px;
 	padding: 3px 17px;
 	width: 213px;
-	margin: 5px 10px;
+	margin: 5px 2px;
 }
 .forms_sect3 input.radio{
 	padding: 0;
@@ -497,7 +522,7 @@ a.button:hover{
 	font-size: 15px;
 	padding: 3px 17px;
 	width: 213px;
-	margin-left: 10px;
+	margin-left: 2px;
 	transition:all .25s ease;
 }
 .forms_sect3 button:hover{
@@ -508,11 +533,19 @@ a.button:hover{
 }
 .item{
 	display: inline-block;
-	margin: 0 14px;
+	margin: 0 5px;
+	vertical-align: top;
+	width: 160px;
+}
+.item .img_wrap{
+	height: 45px;
+}
+.item_last{
+	width: 242px;
 }
 .item p{
 	font-family: "GothaProBla", sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	text-transform: uppercase;
 	margin-top: 10px;
 }
@@ -548,32 +581,52 @@ a.button:hover{
 	font-size: 15px !important;
 }
 .ul_wrap{
-	margin-top: 26px;
+	margin-top: 100px;
+}
+
+.section_4 .ul_wrap ul{
+	list-style-type: none;
+	padding: 0;
 }
 .sect_white ul li{
 	color: #A5D329;
-	font-size: 18px;
-	
+	font-size: 20px;
+	line-height: 35px;
 }
 .sect_white ul li span{
 	color: #444;
 }
 .section_4{
 	padding-bottom: 0;
+	background-image: url(../img/bg_sect_4.jpg);
+	min-height: 684px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: left;
+}
+.section_4 .title_wrap{
+	margin-top: 100px;
+	margin-left: 50px;
+}
+.section_4 .title_wrap h2{
+	color: #fff;
 }
 
 .section_5{
 	background-image: url(../img/bg_sect_5.png);
-	min-height: 867px;
+	min-height: 862px;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
 	margin-top: -30px;
-	padding-top: 240px;
+	padding-top: 90px;
 	position: relative;
 	z-index: 2;
 }
 
+.section_5 .ul_wrap{
+	margin-top: 31px;
+}
 .section_5 .title_wrap{
 	padding-right: 30px;
 }
@@ -581,6 +634,7 @@ a.button:hover{
 .section_5 ul li{
 	color: #A5D329;
 	margin-top: 7px;
+	font-size: 18px;
 }
 .section_5 ul li span{
 	color: #fff;
@@ -591,15 +645,19 @@ a.button:hover{
 	min-height: 700px;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-position: right;
+	background-position: center;
 	margin-top: -166px;
 	padding-top: 240px;
 	position: relative;
 	z-index: 1;
 }
 
+.section_6 .ul_wrap{
+	margin-top: 17px;
+}
+
 .section_7{
-	background-color: #f8f8f8;
+	background-color: #fff;
 	padding-bottom: 0;
 }
 .section_7 .title_wrap h2{
@@ -653,11 +711,7 @@ a.button:hover{
 	font-family: "GothaProBol", sans-serif;
 }
 .ellips_sect7{
-	background-image: url(../img/ellips_bottom_sect7.png);
-	min-height: 219px;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center;
+	margin-bottom: 30px;
 	background-color: #fff;
 	text-align: center;
 	padding-top: 90px;
@@ -696,14 +750,15 @@ a.button:hover{
 }
 
 .section_9{
-	background-image: url(../img/bg_sect_9.jpg);
+	background-image: url(../img/bg_sect_9.png);
 	min-height: 1050px;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
 	padding-top: 150px;
 	position: relative;
-	
+	z-index: 50;
+	margin-top: -80px;
 }
 .section_9 .title_wrap h2{
 	margin-bottom: 80px;
@@ -906,7 +961,7 @@ table tr td.td_bottom{
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
-	min-height: 1002px;
+	min-height: 812px;
 	text-align: center;
 }
 .section_13 .title_wrap{
@@ -1014,18 +1069,21 @@ table tr td.td_bottom{
 }
 .section_15 a.button{
 	border: 2px solid #fff;
-	font-size: 18px;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 15px;
+	padding: 5px 30px;
 	text-transform: uppercase;
 	font-family: "GothaProMed", sans-serif;
 }
 
 .footer{
-	background-image: url(../img/bg_footer.png);
+	background-image: url(../img/bg_footer.jpg);
 	min-height: 650px;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
-	margin-top: -65px;
+	margin-top: 0;
 	position: relative;
 	z-index: 2;
 	font-family: "GothaProBol", sans-serif;
@@ -1036,6 +1094,9 @@ table tr td.td_bottom{
 }
 .footer .but_wrap{
 	margin-top: 35px;
+}
+.footer .logo img{
+	width: auto;
 }
 .footer a.button{
 	background: none;
