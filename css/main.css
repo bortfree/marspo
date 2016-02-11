@@ -347,7 +347,7 @@ a.button:hover{
 
 .section_1{
 	background-image: url(../img/bg_sect_11.jpg) ;
-	min-height: 980px;
+	min-height: 910px;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: left;
@@ -395,8 +395,8 @@ a.button:hover{
 .descr_desc_1_wrap{
 	color: #444;
 	font-size: 18px;
-	
-	margin-top: 190px;
+	line-height: 24px;
+	margin-top: 126px;
 	margin-left: 50px;
 	position: relative;
 }
@@ -581,7 +581,7 @@ a.button:hover{
 	font-size: 15px !important;
 }
 .ul_wrap{
-	margin-top: 100px;
+	margin-top: 30px;
 }
 
 .section_4 .ul_wrap ul{
@@ -599,7 +599,7 @@ a.button:hover{
 .section_4{
 	padding-bottom: 0;
 	background-image: url(../img/bg_sect_4.jpg);
-	min-height: 684px;
+	min-height: 570px;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: left;
