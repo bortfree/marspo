@@ -1,5 +1,14 @@
 $(function() {
 
+	$(".first_day").click(function() {
+		$(".days1_items").css("display", "block");
+		$(".days2_items").css("display", "none");
+	});
+	$(".second_day").click(function() {
+		$(".days2_items").css("display", "block");
+		$(".days1_items").css("display", "none");
+	});
+
 	$(".title_sect_1 h2, .title_wrap h2, .item_wrap_sect9 .img_wrap").animated("fadeInLeft");
 	$(".item").animated("fadeInDown");
 	$(".item_sect7_wrap").animated("zoomIn");

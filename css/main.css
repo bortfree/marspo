@@ -656,6 +656,131 @@ a.button:hover{
 	margin-top: 17px;
 }
 
+.title_programm_wr{
+	color: #fff;
+	background-color: #a5d329;
+	margin-bottom: 20px;
+}
+.second_day{
+	background-color: #c0c3d3;
+	cursor: pointer;
+}
+.first_day{
+	cursor: pointer;
+}
+.title_programm_wr h3{
+	display: inline-block;
+	font-family: "GothaProBla", sans-serif;
+	font-size: 35px;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 5px 15px;
+}
+.title_programm_wr span{
+	font-size: 18px;
+	display: inline-block;
+	position: relative;
+	top: -7px;
+}
+
+.time_programm{
+	color: #444;
+	position: relative;
+}
+.time_programm:before{
+	content: '';
+	position: absolute;
+	width: 55px;
+	height: 1px;
+	background-color: #b4b4b4;
+	top: 11px;
+	right: -5px;
+}
+
+.first_prog:after{
+	content: '';
+	position: absolute;
+	background-image: url(../img/ic_programm.jpg);
+	width: 7px;
+	height: 46px;
+	left: 5px;
+	bottom: -43px;
+}
+.sec_prog:after{
+	content: '';
+	position: absolute;
+	background-image: url(../img/ic_programm2.jpg);
+	width: 7px;
+	height: 64px;
+	left: 5px;
+	bottom: -64px;
+}
+.third_prog:after{
+	content: '';
+	position: absolute;
+	background-image: url(../img/ic_programm3.jpg);
+	width: 7px;
+	height: 117px;
+	left: 5px;
+	bottom: -117px;
+}
+.fourth_prog:after{
+	content: '';
+	position: absolute;
+	background-image: url(../img/ic_programm4.jpg);
+	width: 7px;
+	height: 143px;
+	left: 5px;
+	bottom: -141px;
+}
+
+
+
+.ver1_descr{
+	color: #8d8d8e;
+	font-family: "GothaProBol", sans-serif;
+	font-size: 15px;
+}
+.ver2_descr{
+	color: #0f1015;
+	text-transform: uppercase;
+}
+.ver2_descr h4{
+	color: #a5d329;
+	font-family: "GothaProBla", sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0;
+	line-height: 22px;
+}
+.ver2_descr h5{
+	font-family: "GothaProBla", sans-serif;
+	font-size: 17px;
+	font-weight: normal;
+	margin: 5px 0;
+}
+.ver2_descr p{
+	margin: 0;
+	font-family: "GothaProBol", sans-serif;
+	font-size: 13px;
+}
+.ver2_descr .red_title{
+	color: #f30850;
+}
+.ver2_descr .blue_title{
+	color: #3123ee;
+}
+
+.item_programm{
+	margin-bottom: 42px;
+}
+
+.days2_items{
+	display: none;
+}
+
+
+
 .section_7{
 	background-color: #fff;
 	padding-bottom: 0;
