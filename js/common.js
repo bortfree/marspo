@@ -212,6 +212,26 @@ $(".slider").owlCarousel({
 	loop : true,
 	autoplay : true,
 	autoplayHoverPause : true,
+	responsive : {
+    // breakpoint from 0 up
+    0 : {
+    	items: 1,
+    },
+    // breakpoint from 480 up
+    480 : {
+    	items: 1
+    },
+    // breakpoint from 768 up
+    768 : {
+    	items: 2
+    },
+    1000 : {
+    	items: 2
+    },
+    1200 : {
+    	items: 2
+    }
+  },
 	fluidSpeed : 600,
 	autoplaySpeed : 600,
 	navSpeed : 600,
