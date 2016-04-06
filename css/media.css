@@ -1100,6 +1100,12 @@
 	.section_13 .title_wrap strong {
     font-size: 32px;
 	}
+	.section_14 .item_wrap img{
+		max-width: 100%;
+	}
+	.media_sect3 .item{
+		width: 126px;
+	}
 
 }
 
